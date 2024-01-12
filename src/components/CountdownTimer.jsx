@@ -100,6 +100,7 @@ export default function CountdownTimer() {
       <button className="btn btn-danger btn-lg" onClick={stopTimer}>
         <BsStopFill />
       </button>
+      <span style={{display:'none'}}>By Ernazarova Ozoda</span>
     </div>
   )
 }
